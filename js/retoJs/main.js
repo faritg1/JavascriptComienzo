@@ -1,7 +1,7 @@
 /* EJERCICIO 2 */
 const prompt = require("prompt-sync")({sigint:true});
-let passONE = prompt("Ingrese algo one :")
-let passTWO = prompt("Ingrese algo two :")
+let passONE = prompt("Ingrese algo one: ")
+let passTWO = prompt("Ingrese algo two: ")
 
 function hash(passOne, passTwo){
     let hash = "";
@@ -16,6 +16,11 @@ function hash(passOne, passTwo){
             }
         }
     }
+    console.log(passOne.length)
+    console.log(passTwo.length)
+    console.log(hash.length)
     return hash
 }
 console.log(hash(passONE,passTWO))
+
+/* Carlos Farit Torres Gelves */
