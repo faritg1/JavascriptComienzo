@@ -19,7 +19,7 @@ function hash(passOne, passTwo){
                         break
                     }
                 }
-            }
+            }   
             console.log(passOne.length)
             console.log(passTwo.length)
             console.log(hash.length)
