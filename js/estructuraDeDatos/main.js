@@ -8,7 +8,7 @@ class Stack{
         return this.items.length == 0;
     }
 
-    size(){//Retornar tamaño
+    size(){//Retornar tamañoZ
         return this.items.length;
     }
 
